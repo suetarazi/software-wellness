@@ -1,4 +1,5 @@
 body {
+    width: 960px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     background-color: purple;
@@ -11,10 +12,16 @@ body {
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
+    float: left;
   }
   
   .circular--landscape img {
     width: auto;
     height: 100%;
     margin-left: -50px;
+    
+  }
+
+  p {
+      width: 450px; 
   }
