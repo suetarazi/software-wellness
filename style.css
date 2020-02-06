@@ -1,8 +1,54 @@
+
+header, section, footer, nav, article, figure, figcaption {
+    display: block;
+}
+
 body {
     width: 960px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-align: center; */
+    background-color: #78A4BF;
+    color: #1B2F32;
+    margin: auto;
+    
+}
+
+header {
+    height: 120px; 
+}
+
+nav {
+    width: 1000px;
+    background-color: #324873; 
+    height: 45px;
+    margin: 0px;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 10px 0px 10px 30px;
+}
+
+nav li{
+    display: inline;
+    margin-right: 50px;
+}
+
+nav li a{
+    color: #99BFB4;
+}
+
+nav li a:hover, nav li a.current{
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 40px;
     text-align: center;
-    background-color: purple;
+}
+
+h2, h3 {
+    text-align: center;
 }
 
 .circular--landscape {
@@ -12,9 +58,11 @@ body {
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
-    float: left;
+    margin: 35px;
+    margin-left: 60px;
+    /* float: left; */
   }
-  
+
   .circular--landscape img {
     width: auto;
     height: 100%;
@@ -22,6 +70,30 @@ body {
     
   }
 
-  p {
-      width: 450px; 
+  .herbs {
+      /* clear: both;    */
+    /* background-color: lightgreen; */
+    width: 550px; 
+    margin-top: 50px;
+    margin-right: 60px;
+    float: right;
+  }
+
+  /* div {
+      background-color: aqua;
+      margin-bottom: 50px;
+  } */
+
+#suePic {
+    width: 150px;
+    height: 150px;
+    margin-right: 0px;
+    float: right;
+}
+
+  footer{
+      width: 1000px;
+      margin: 15px;
+      float: right;
+      margin-top: 50px;
   }
