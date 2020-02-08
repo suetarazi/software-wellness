@@ -29,9 +29,16 @@ nav ul{
     padding: 10px 0px 10px 30px;
 }
 
-nav li{
+nav .siteNavigation li{
     display: inline;
     margin-right: 50px;
+}
+
+nav .mediaLinks li{
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+    float: right;
 }
 
 nav li a{
@@ -40,6 +47,11 @@ nav li a{
 
 nav li a:hover, nav li a.current{
     color: whitesmoke;
+}
+
+nav .mediaLinks li img{
+    width: 24px;
+    height: 24px;
 }
 
 h1 {
@@ -84,7 +96,50 @@ h2, h3 {
       margin-bottom: 50px;
   } */
 
-#suePic {
+#inflammatoryFoods {
+    display: inline; 
+}
+  .circular--landscape2 {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px;
+    margin-left: 0px;
+    /* float: left; */
+  }
+
+  .circular--landscape2 img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+    
+  }
+
+  .circular--landscape3 {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px;
+    margin-left: 380px;
+    text-align: center;
+    /* float: left; */
+  }
+
+  .circular--landscape3 img {
+    width: auto;
+    height: 100%;
+    margin-left: -55px;
+    text-align: center;
+    
+  }
+
+  #suePic {
     width: 150px;
     height: 150px;
     margin-right: 0px;
