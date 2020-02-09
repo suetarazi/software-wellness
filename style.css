@@ -20,7 +20,7 @@ header {
 nav {
     width: 1000px;
     background-color: #324873; 
-    height: 45px;
+    height: 60px;
     margin: 0px;
 }
 
@@ -29,9 +29,14 @@ nav ul{
     padding: 10px 0px 10px 30px;
 }
 
+.siteNavigation li {
+  margin-bottom: 50px; 
+}
+
 nav .siteNavigation li{
     display: inline;
     margin-right: 50px;
+    
 }
 
 nav .mediaLinks li{
@@ -45,7 +50,7 @@ nav li a{
     color: #99BFB4;
 }
 
-nav li a:hover, nav li a.current{
+nav li a:hover, nav li {
     color: whitesmoke;
 }
 
@@ -86,7 +91,7 @@ h2, h3 {
       /* clear: both;    */
     /* background-color: lightgreen; */
     width: 550px; 
-    margin-top: 50px;
+    margin-top: 30px;
     margin-right: 60px;
     float: right;
   }
@@ -134,7 +139,7 @@ h2, h3 {
   .circular--landscape3 img {
     width: auto;
     height: 100%;
-    margin-left: -55px;
+    margin-left: -58px;
     text-align: center;
     
   }
@@ -142,13 +147,19 @@ h2, h3 {
   #suePic {
     width: 150px;
     height: 150px;
-    margin-right: 0px;
-    float: right;
+    margin-right: 20px;
+    /* float: right; */
 }
 
+    footer div{
+    display: inline; 
+  }
+  
   footer{
       width: 1000px;
       margin: 15px;
+      background-color: #324873; 
+      color: #99BFB4;
       float: right;
-      margin-top: 50px;
+      margin-left: 20px;
   }
