@@ -68,6 +68,10 @@ h2, h3 {
     text-align: center;
 }
 
+.video {
+  text-align: center;
+}
+
 .circular--landscape {
     display: inline-block;
     position: relative;
@@ -148,18 +152,44 @@ h2, h3 {
     width: 150px;
     height: 150px;
     margin-right: 20px;
-    /* float: right; */
+    margin-bottom: 200px;
+    float: right;
 }
 
-    footer div{
-    display: inline; 
-  }
+    /* footer div{
+    display: inline-block; 
+    height: 200px; 
+  } */
   
   footer{
       width: 1000px;
+      height: 200px;
       margin: 15px;
       background-color: #324873; 
       color: #99BFB4;
-      float: right;
       margin-left: 20px;
   }
+
+  #aboutSue{
+    display: block;
+    width: 800px; 
+    margin-top: 20px; 
+    margin-left: 20px; 
+  }
+
+
+
+  /* #footerSue{
+    height: 200px; 
+    margin-left: 20px;
+    margin-top: 20px; 
+  } */
+
+  /* #footerList, #footerSue, .footerItem{
+    text-decoration: none;
+  }
+
+  #footerList:last-child {
+    float: right;
+    margin-bottom: 200px;  
+  } */
